@@ -39,7 +39,7 @@ function asoribapay( $atts ) {
 
     return '<span id="asoribaWidget">
         
-    <Script src="https://s3.amazonaws.com/asoribapay-widget/widget.js?version=0.5"
+    <Script src="https://s3.amazonaws.com/asoribapay-widget/widget.js?version=0.6"
             button-text= "' . $atts['button_text'] . '" 
             pub-key= "' . $atts['pub_key'] . '"
             amount= "' . $atts['amount'] . '" 
@@ -59,5 +59,5 @@ function asoribapay( $atts ) {
 }
 add_shortcode( 'asoribapay', 'asoribapay' );
 
-?>
+
 
